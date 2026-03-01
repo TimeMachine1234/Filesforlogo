@@ -1560,7 +1560,7 @@ namespace Files.App.ViewModels
 			// This prevents both the shortcut glyph and folder icon being shown
 			else if (!item.IsShortcut)
 			{
-				await dispatcherQueue.EnqueueOrInvokeAsync(() => groupImage = new SvgImageSource(new Uri("ms-appx:///Assets/FolderIcon2.svg"))
+				await dispatcherQueue.EnqueueOrInvokeAsync(() => groupImage = new SvgImageSource(new Uri("ms-appx:///Assets/Icons/FolderIcon2.svg"))
 				{
 					RasterizePixelHeight = 128,
 					RasterizePixelWidth = 128,
